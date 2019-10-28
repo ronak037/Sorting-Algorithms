@@ -57,14 +57,13 @@ void print(int a[], int size)
 int main()
 {
     int size;
-    cout << "Enter how many elements you want to enter: ";
+    cout << "Enter how many elements you want to enter: \n";
     cin >> size;
     int a[size];
-    cout<<"Now enter the elements: ";
+    cout<<"Now enter the elements: \n ";
     for (int i = 0; i < size; i++)
-    {
-        cin >> a[i];
-    }
+          cin >> a[i];
+    
     heapsort(a, size);
     print(a, size);
     cout << endl;
